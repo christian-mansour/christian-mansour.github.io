@@ -361,16 +361,6 @@ a .fa {
   padding: 2em 1em;
 }
 
-@media (max-width: 1999px) {
-  #skills-hack{
-    margin-top: 9em;
-  }
-
-  #projects-hack{
-    margin-top: 9em;
-  }
-}
-
 @media (max-width: 1592px) {
   #projectImage {
     width: 60%;
@@ -421,6 +411,15 @@ a .fa {
   #about {
     /*height: 66em;*/
     height: 96em;
+  }
+}
+
+@media (max-width: 1199px) {
+  #skills-hack{
+    margin-top: 9em;
+  }
+  #projects-hack{
+    margin-top: 9em;
   }
 }
 
