@@ -282,6 +282,7 @@ a .fa {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  z-index: -10;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*opacity: 0.8;*/
