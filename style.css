@@ -259,7 +259,7 @@ a .fa {
 }
 
 #footer {
-  margin-top: 4em;
+  margin-top: 2em;
   margin-bottom: 0;
   font-size: 12px;
 }
@@ -525,7 +525,7 @@ a .fa {
     background-color: #000;
     border-radius: 15px;
   }
-  .fa {
+  .fa-university{
     color: #fff;
   }
   .about-text {
