@@ -510,6 +510,29 @@ a .fa {
   }
 }
 
+@media (max-width: 1000px) {
+  #about {
+    background-image: url('');
+    border: 4px solid #000;
+  }
+  #education-heading {
+    color: #000;
+  }
+  #interests-heading {
+    color: #000;
+  }
+  .fa-square {
+    background-color: #000;
+    border-radius: 15px;
+  }
+  .fa {
+    color: #fff;
+  }
+  .about-text {
+    color: #000;
+  }
+}
+
 @media (max-width: 996px) {
   #photo-me img {
     margin: 0 8em;
@@ -661,26 +684,6 @@ a .fa {
   }
   #imChristian {
     font-size: 30px;
-  }
-  #about {
-    background-image: url('');
-    border: 4px solid #000;
-  }
-  #education-heading {
-    color: #000;
-  }
-  #interests-heading {
-    color: #000;
-  }
-  .fa-square {
-    background-color: #000;
-    border-radius: 15px;
-  }
-  .fa {
-    color: #fff;
-  }
-  .about-text {
-    color: #000;
   }
 }
 
