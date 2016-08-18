@@ -992,6 +992,34 @@ a .fa {
   }
 }
 
+@media (max-width: 313px) {
+  #about {
+    /*height: 87em;*/
+    height: 122em;
+  }
+}
+
+@media (max-width: 306px) {
+  #about {
+    /*height: 87em;*/
+    height: 124em;
+  }
+}
+
+@media (max-width: 297px) {
+  #about {
+    /*height: 87em;*/
+    height: 126em;
+  }
+}
+
+@media (max-width: 291px) {
+  #about {
+    /*height: 87em;*/
+    height: 129em;
+  }
+}
+
 @media (max-width: 315px) {
   #skills {
     margin-bottom: 7.5em;
