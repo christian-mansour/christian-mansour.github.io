@@ -960,7 +960,7 @@ a .fa {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 376px) {
   #about {
     /*height: 87em;*/
     height: 117em;
