@@ -1,72 +1,3 @@
-.navbar {
-  background-color: #fff;
-  padding: 2.5em 9em;
-  border-bottom: 1px solid #fff;
-  position: fixed;
-}
-
-/*.loader {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('images/hex-loader.gif') 50% 50% no-repeat rgb(249,249,249);
-}*/
-
-#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    background: #fff url('images/hex-loader.gif') no-repeat center center;
-}
-
-footer {
-  border-top: 1px solid #8a8a8a;
-  text-align: center;
-  padding: 3em 0;
-  font-family: 'Inconsolata', serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #000;
-}
-
-#photo-me img {
-  width: 22%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 10em;
-  display: inline-block;
-  margin: 0 15em 0em 15em;
-}
-
-#photo-me h3 {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-weight: bolder;
-  margin-top: 0;
-  font-size: 30px;
-  /*border-bottom: 4px solid #000;*/
-}
-
-#hello-intro {
-  margin: 4em 0em 10em 0em;
-  text-align: center;
-}
-
-#footer {
-  margin-top: 4em;
-  margin-bottom: 0;
-  font-size: 12px;
-}
-
 body {
   margin: 0 9em;
 }
@@ -97,12 +28,30 @@ h4 {
   margin-bottom: 2em;
 }
 
+footer {
+  border-top: 1px solid #8a8a8a;
+  text-align: center;
+  padding: 3em 0;
+  font-family: 'Inconsolata', serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000;
+}
+
 a:hover .fa{
   color: #555353;
 }
 
 a .fa {
   color: #8a8a8a;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 2.5em 9em;
+  border-bottom: 1px solid #fff;
+  position: fixed;
 }
 
 .navbar-brand {
@@ -268,6 +217,49 @@ a .fa {
 
 #initials {
   color: #000;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('images/hex-loader.gif') no-repeat center center;
+}
+
+
+
+#photo-me img {
+  width: 22%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10em;
+  display: inline-block;
+  margin: 0 15em 0em 15em;
+}
+
+#photo-me h3 {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 0;
+  font-size: 30px;
+  /*border-bottom: 4px solid #000;*/
+}
+
+#hello-intro {
+  margin: 4em 0em 10em 0em;
+  text-align: center;
+}
+
+#footer {
+  margin-top: 4em;
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 #hello {
