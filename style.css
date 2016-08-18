@@ -510,7 +510,7 @@ a .fa {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   #about {
     background-image: url('');
     border: 4px solid #000;
