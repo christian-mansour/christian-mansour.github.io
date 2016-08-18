@@ -27,7 +27,7 @@
 }
 
 footer {
-  border-top: 1px solid #000;
+  border-top: 1px solid #8a8a8a;
   text-align: center;
   padding: 3em 0;
   font-family: 'Inconsolata', serif;
@@ -62,7 +62,7 @@ footer {
 }
 
 #footer {
-  margin-top: 2em;
+  margin-top: 4em;
   margin-bottom: 0;
   font-size: 12px;
 }
@@ -72,10 +72,11 @@ body {
 }
 
 ul {
-  font-family: 'Inconsolata', serif;
+  /*font-family: 'Inconsolata', serif;*/
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 p {
@@ -97,11 +98,11 @@ h4 {
 }
 
 a:hover .fa{
-  color: #666363;
+  color: #555353;
 }
 
 a .fa {
-  color: #000;
+  color: #8a8a8a;
 }
 
 .navbar-brand {
@@ -253,10 +254,16 @@ a .fa {
   padding: 0 13em;
 }
 
-
-
 .navbar-default .navbar-nav>li>a  {
   color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #a3a3a2;
+}
+
+.icons-inline {
+  display: inline-block;
 }
 
 #initials {
@@ -358,7 +365,7 @@ a .fa {
 }
 
 #icons-footer a{
-  padding: 2em 1em;
+  padding: 2em 6em;
 }
 
 @media (max-width: 1592px) {
@@ -423,6 +430,12 @@ a .fa {
   }
 }
 
+@media (max-width: 1186px) {
+  #icons-footer a{
+    padding: 2em 5.5em;
+  }
+}
+
 @media (max-width: 1116px) {
   #about {
     /*height: 67em;*/
@@ -457,6 +470,12 @@ a .fa {
   }
 }
 
+@media (max-width: 1122px) {
+  #icons-footer a{
+    padding: 2em 5em;
+  }
+}
+
 @media (max-width: 1089px) {
   #photo-me img {
     width: 30%;
@@ -472,6 +491,12 @@ a .fa {
 @media (max-width: 1061px) {
   #photo-me h3 {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 1058px) {
+  #icons-footer a{
+    padding: 2em 4.5em;
   }
 }
 
@@ -493,6 +518,12 @@ a .fa {
   }
   #photo-me h3 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 994px) {
+  #icons-footer a{
+    padding: 2em 4em;
   }
 }
 
@@ -532,6 +563,12 @@ a .fa {
   }
 }
 
+@media (max-width: 930px) {
+  #icons-footer a{
+    padding: 2em 3.5em;
+  }
+}
+
 @media (max-width: 910px) {
   #hello {
     font-size: 35px;
@@ -544,6 +581,12 @@ a .fa {
 @media (max-width: 885px) {
   #photo-me h3 {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 866px) {
+  #icons-footer a{
+    padding: 2em 3em;
   }
 }
 
@@ -630,13 +673,18 @@ a .fa {
   #projects-hack{
     margin-top: 9.5em;
   }
-
 }
 
 @media (max-width: 751px) {
   #about {
     /*height: 68em;*/
     height: 98em;
+  }
+}
+
+@media (max-width: 746px) {
+  #icons-footer a{
+    padding: 2em 2.5em;
   }
 }
 
@@ -690,6 +738,12 @@ a .fa {
   }
 }
 
+@media (max-width: 654px) {
+  #icons-footer a{
+    padding: 2em 2em;
+  }
+}
+
 @media (max-width: 631px) {
   #about {
     /*height: 72em;*/
@@ -737,6 +791,15 @@ a .fa {
 @media (max-width: 547px) {
   #skills {
     margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 534px) {
+  #icons-footer a{
+    padding: 2em 1.5em;
+  }
+  .icon-name {
+    visibility: hidden;
   }
 }
 
@@ -800,6 +863,12 @@ a .fa {
 @media (max-width: 464px) {
   #soccer {
     width: 80%;
+  }
+}
+
+@media (max-width: 463px) {
+  #icons-footer a{
+    padding: 2em 1em;
   }
 }
 
