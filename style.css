@@ -2,6 +2,8 @@ body {
   margin: 0 9em;
 }
 
+body, html { overflow-x:hidden; }
+
 ul {
   /*font-family: 'Inconsolata', serif;*/
   font-family: 'Montserrat', sans-serif;
