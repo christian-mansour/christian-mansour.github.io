@@ -699,7 +699,7 @@ a .fa {
 @media (max-width: 751px) {
   #about {
     /*height: 68em;*/
-    height: 98em;
+    height: 102em;
   }
 }
 
@@ -752,10 +752,17 @@ a .fa {
   }
 }
 
+@media (max-width: 667px) {
+  #about {
+    /*height: 70em;*/
+    height: 104em;
+  }
+}
+
 @media (max-width: 665px) {
   #about {
     /*height: 70em;*/
-    height: 100em;
+    height: 103em;
   }
 }
 
